@@ -1,8 +1,8 @@
-let distanceInMiles = 100;
+var distanceInMiles = 100;
 
-let estimatedArrivalTime = () {
+var estimatedArrivalTime = () {
     let milesPerHour = 50;
-    return distanceInMiles / estimatedArrivalTime;
+    return distanceInMiles / milesPerHour;
 }
 
 
